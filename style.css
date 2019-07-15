@@ -1,0 +1,482 @@
+/*
+
+ Theme Name:   The Core Child
+
+ Theme URI:    http://example.com/twenty-fifteen-child/
+
+ Description:  The Core Child Theme
+
+ Author:       rsm0128
+
+ Template:     the-core-parent
+
+ Version:      1.0.0
+
+*/
+
+.fw-container, .fw-container *, .fw-container *:before, .fw-container *:after {
+    text-align: left!important;
+}
+
+.single.single-product form .single_add_to_cart_button {
+	margin-right: 10px;
+}
+.single.single-product form .single_add_to_cart_button:last-of-type {
+	margin-right: 0px;
+}
+body .wpcf7 .wpcf7-form input.wpcf7-submit {
+    color: white;
+}
+.contact_gall_form {
+	padding-left: 10px;
+	display: none;
+	overflow: hidden;
+    border: 8px solid lightgray;
+    border-radius: 10px;
+}
+.countdown_section {
+	text-align: center!important;
+}
+.label_span, span.woo-ua-current.auction {
+	font-weight: bold;
+}
+#artwork_classification_div, .ufaq-faq-categories  {
+	display: none;
+} 
+.header-2 .fw-sticky-menu .fw-header-main .fw-container {
+    padding-bottom: 0px!important;
+}
+.pswp__caption__center {
+	display: none;
+}
+.pswp__button.pswp__button--zoom, .pswp__button.pswp__button--fs {
+	display: none;
+}
+.pswp--zoom-allowed .pswp__img {
+    cursor: default!important;
+}
+.buy_buttons a {
+    color: darkred;
+}
+.buy_buttons {
+    padding: 5px;
+    line-height: 17px;
+    background-color: #df8023;
+    vertical-align: middle;
+    height: 70px;
+    text-align: center!important;
+    color: darkred;
+    margin: 0px auto;
+	margin-bottom: 20px;
+}
+.buy_buttons .underlined {
+	text-decoration: underline;
+    text-align: center!important;
+    margin-bottom: 8px;
+    text-transform: lowercase;
+    font-size: 15px;
+}
+.acution_buy_btn {
+}
+.direct_buy_btn {
+}
+.contact_buy_btn {
+}
+
+.flickity-prev-next-button.next {
+    right: 25px!important;
+}
+.flickity-prev-next-button.previous {
+    left: 25px!important;
+}
+.row.artwork-gallery .col-md-4 {
+    margin-bottom: 15px;
+	text-align: center!important;
+}
+.art_work_mini_descr {
+	padding: 5px;
+    line-height: 17px;
+    background-color: #df8023;
+    vertical-align: middle;
+    height: 60px;
+    text-align: center!important;
+    color: darkred;
+    margin: 0px auto;
+}
+body .carousel-cell {
+    width: 24.15%;
+}
+body .artist-bio .carousel-cell {
+    width: 100%;
+}
+.flickity-viewport {
+    height: 250px;
+}
+.artist-bio .carousel-cell, .artist-bio .flickity-viewport, .artist-bio .carousel {
+	height: 360px;
+}
+.artist-bio .carousel-cell img {
+    height: auto;
+}
+.artisartslide .carousel-cell p {
+    padding: 5px;
+    line-height: 17px;
+    background-color: #df8023;
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    width: 282px;
+    text-align: center!important;
+    color: darkred;
+}
+.artist_photo {
+    margin-top: 20px;
+}
+#artwork_classification_div.active {
+    border-radius: 10px;
+    display: block!important;
+    position: fixed;
+    display: block;
+    width: 50%;
+	background: lightyellow;
+    border: 8px solid lightgray;
+    top: 205px;
+	max-height: calc(100% - 230px);
+    left: 0;
+    overflow-y: scroll;
+    right: 0;
+    margin: 0px auto;
+    z-index: 9999999999999999999!important;
+}
+#artwork_classification_div .close {
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px 1px grey;
+}
+.woocommerce.single-product .related.products {
+    float: none!important;
+}
+body {
+	margin: 0;
+	padding: 0;		
+	background-color: #f0f0f0;
+}
+.prod-image-block, .upload-block, .upload-block {
+	float: left;
+    margin-right: 0%;
+    width: 100%;
+   
+	margin-bottom: 15px;
+	
+}
+.hidden_link {
+	display: none;
+}
+#save_me {
+	    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    WIDTH: 100%;
+    TEXT-ALIGN: CENTER !IMPORTANT;
+}
+div.konvajs-content canvas {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+div.konvajs-content {
+	max-width: 100%!important;
+	border: 2px solid #df8023;
+	margin-top: 20px;
+}
+
+#canvas-container {
+	max-width: 99%;
+}
+.prod-image-block img { 
+	max-height: 200px;
+	width: auto;
+}
+.see_on_my_wall_feature {
+	display: none;
+	background: lightgray;
+	box-shadow: 0px 0px 20px 20px lightgrey;
+	margin-bottom: 50px;	
+	position: fixed;
+    top: 5%; 
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 99999!important;
+	overflow-y: auto;
+}
+.see_on_my_wall { cursor: pointer; }
+
+#wall_reall_w {
+    outline: none;
+    float: right;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.wall_reall_w {
+    line-height: 37px;
+}
+.see_on_my_wall_feature h3 {
+    font-size: 26px;
+    margin-bottom: 1px;
+	border-top: 2px solid #df8023;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+h3.masterpiece {
+    margin-bottom: -20px;
+    border-top: 0px;
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+}
+#close_feature {
+    position: relative;
+    width: 100%;
+    height: 54px;
+    border-radius: 0;
+    border: 2px solid #df8023;
+    color: #fff;
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 23.5px;
+    cursor: pointer;
+    display: inline-block;
+    background: #df8023;
+    line-height: 2.2;
+}
+.prod-image-block {
+	width: 100%;
+}
+.other_artwork_this li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+ul.other_artwork_this {
+    list-style: none;
+    padding:0;
+}
+
+ul.main_menu_container {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+.other_artwork_this li {
+    padding: 5px 0;
+    cursor: pointer;
+    display: inline-block;
+}
+.left_side_img {
+    float: left;
+    width: 33.33%;
+}
+.right_side_img {
+    float: left;
+    width: 66.66%;
+    padding-left: 10px;
+}
+.recentby_this_auth {
+    height: 468px;
+    overflow: auto;
+    width: 100%;
+}
+.recentby_this_auth::-webkit-scrollbar { width: 0 !important }
+.upload-block.wall {
+	width: 100%;
+}
+
+.upload {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+}
+.upload + label {
+  font-size: 13px;
+    color: white;
+    background-color: #df8023;
+    display: inline-block;
+    border-radius: 0px;
+    transition: 150ms;
+    padding: 13px 2px;
+    width: 100%;
+    text-align: center!important;
+    float: LEFT;
+    margin-right: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.upload:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.upload:focus + label, .upload + label:hover {
+    cursor:pointer;
+}
+#background-img {
+    margin-top: 0px;
+	margin-top: 5px;
+    float: right;
+    width: 61%;
+}
+#btn-merge {
+    display: block;
+    margin-top: 9px;
+    outline: none;
+    float: left;
+    text-align: center!important;
+    width: 100%;
+    FONT-WEIGHT: BOLD;
+    text-transform: uppercase;
+}
+
+
+.product.type-product.product-type-auction .woo-ua-winned-for.expired {
+    display: block;
+    margin-bottom: 20px;
+}
+.product.type-product.product-type-auction .single_add_to_cart_button.button {
+	margin-right: 10px;
+}
+.product.type-product.product-type-auction .single_add_to_cart_button.button.contact_the_gallery {
+	margin-right: 10px;
+}
+.product.type-product.product-type-auction .woo-ua-auction-price.standart-price {
+	display: block;
+    margin-bottom: 15px;
+}
+.woocommerce div.product form.cart {
+    margin-bottom: 0em!important;
+}
+li.product.type-product.product-type-auction .button.product_type_auction {
+	display: none;
+}
+li.product.type-product.product-type-auction .button.product_type_auction.add_to_cart_button {
+	display: inline-block;
+}
+li.product.type-product.product-type-auction .woo-ua-winned-for.expired {
+    margin-bottom: 0px;
+}
+.exh_image {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.exhibition_data_block {
+	width: 100%;
+	float: left;
+}
+.exhibition_data_block .wp-post-image {
+    width: 100%;
+}
+
+
+.single-artist .flickity-prev-next-button {
+	width:20px;
+	height:20px;
+}
+div#exTab2 {
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav.nav-tabs li.active a{
+	border: none;
+    border-bottom: 1px solid #555 !important;
+    padding: 11px 0px;
+}
+.single-artist .loading {
+    display:none;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin-top: -96px;
+    margin-left: -96px;
+    background-color: #ccc;
+    opacity: .85;
+    border-radius: 25px;
+    width: 192px;
+    height: 192px;
+    z-index: 99999;
+ 
+    align-items: center;
+    text-align: center !important;
+}
+
+.tab-content {
+    display: block;
+    position: relative;
+    min-height: 280px;
+}
+.pagination {
+    width: 100%;
+    float: left;
+       text-align: center !important;
+}
+span.page-numbers.current {
+    background: darkred;
+    padding: 11px 16px;
+}
+.pagination .page-numbers{
+	color: #fff;
+    padding: 11px 16px;
+    background: #df8023;
+}
+
+
+.artwork-gallery form button[type="submit"] {
+    background: #df8023;
+    color: #fff;
+    margin-top: 15px;
+    display: block;
+    padding: 7px 12px;
+    border: none;
+    width: 100%;
+    text-align: center !important;
+	transition:all 200ms linear;
+}
+.artwork-gallery form button[type="submit"]:hover{
+	background:darkred;
+	transition:all 200ms linear;
+}
+.single-artist h5, .single-artist .h5 {
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: #1f1f1f;
+}
